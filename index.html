@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta author="Raúl Trinidad Ortíz">
+	<title>Financieras</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<script type="text/javascript" src="operaciones.js"></script>
+	<header>
+		<h1>Educación Financiera - Calculadora Empresarial</h1>
+	</header>
+	<div id="Menu">
+		<ul>
+			<li id="0" onclick="mostrar(this.id)">Registro de datos</li>
+			<li id="1" onclick="mostrar(this.id)">Razones simples</li>
+			<li id="2" onclick="mostrar(this.id)">Indices de liquidez</li>
+			<li id="3" onclick="mostrar(this.id)">Indices de endeudamiento</li>
+			<li id="4" onclick="mostrar(this.id)">Rotación de Archivos</li>
+		</ul>
+	</div>
+	<div id="Formulario">
+		<table>
+			<tr>
+				<th>Empresa</th>
+				<th>Activo</th>
+				<th>Pasivo</th>
+				<th>Capital Contable</th>
+				<th>Ventas</th>
+				<th>Utilidades</th>
+				<th>Inventarios</th>
+				<th>Cuentas por cobrar</th>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<br>
+		<button class="button" onclick="start()">Calcular</button>
+	</div>
+	<div id="RSimples">
+		<table>
+			<tr>
+				<th>Empresa</th><th>Margen de utilidad</th><th>Rendimiento sobre activos totales</th><th>Rendimiento sobre el capital contable</th>
+			</tr>
+		</table>
+	</div>
+	<div id="ILiq">
+		<table>
+			<tr>
+				<th>Razón de líquidez</th><th>Razón de líquidez inmediata</th><th>Capital de trabajo</th><th>Ciclo operativo</th>
+			</tr>
+		</table>
+	</div>
+	<div id="IEnd">
+	<table>
+		<tr>
+			<th>Deuda sobre el activo total</th><th>Razón de cobertura de interes</th>
+		</tr>
+	</table>
+	</div>
+	<div id="Rot">
+		<table>
+			<tr>
+				<th>Rotación de cuentas por cobrar</th><th>Rotación de inventarios</th><th>Rotación de cuentas por pagar</th><th>Rotación de activos fijos</th><th>Rotación de activos totales</th>
+			</tr>
+		</table>
+	</div>
+	<footer>
+		Elaborado por: <br>
+		Raúl Trinidad Ortíz <br>
+		Jairo Alan Reyes Aldeco <br>
+		2CM2
+	</footer>
+</body>
+</html>
